@@ -1,0 +1,48 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Gradle : cmu.edu.app17 : APP2018_RESTWorkshop-1.0-SNAPSHOT.war (exploded)">
+    <output-path>$PROJECT_DIR$/build/libs/exploded/APP2018_RESTWorkshop-1.0-SNAPSHOT.war</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$">
+        <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQoNCg==</manifest>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/build/libs/exploded/APP2018_RESTWorkshop-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="APP2018_RESTWorkshop_main/web/Web Gradle : APP2018_RESTWorkshop-1.0-SNAPSHOT.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="APP2018_RESTWorkshop_main" />
+          <element id="dir-copy" path="$PROJECT_DIR$/out/production/resources" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: com.sun.jersey:jersey-json:1.13" />
+          <element id="library" level="project" name="Gradle: javax.ws.rs:jsr311-api:1.1.1" />
+          <element id="library" level="project" name="Gradle: com.sun.jersey:jersey-bundle:1.13" />
+          <element id="library" level="project" name="Gradle: com.sun.jersey:jersey-core:1.13" />
+          <element id="library" level="project" name="Gradle: com.sun.jersey:jersey-servlet:1.13" />
+          <element id="library" level="project" name="Gradle: com.owlike:genson:1.4" />
+          <element id="library" level="project" name="Gradle: org.mongodb:mongodb-driver:3.4.0" />
+          <element id="library" level="project" name="Gradle: org.apache.logging.log4j:log4j-core:2.8.2" />
+          <element id="library" level="project" name="Gradle: org.apache.logging.log4j:log4j-api:2.8.2" />
+          <element id="library" level="project" name="Gradle: org.mongodb:mongodb-driver-async:3.4.2" />
+          <element id="library" level="project" name="Gradle: org.codehaus.jettison:jettison:1.1" />
+          <element id="library" level="project" name="Gradle: com.sun.xml.bind:jaxb-impl:2.2.3-1" />
+          <element id="library" level="project" name="Gradle: org.codehaus.jackson:jackson-core-asl:1.9.2" />
+          <element id="library" level="project" name="Gradle: org.codehaus.jackson:jackson-mapper-asl:1.9.2" />
+          <element id="library" level="project" name="Gradle: org.codehaus.jackson:jackson-jaxrs:1.9.2" />
+          <element id="library" level="project" name="Gradle: org.codehaus.jackson:jackson-xc:1.9.2" />
+          <element id="library" level="project" name="Gradle: com.sun.jersey:jersey-server:1.13" />
+          <element id="library" level="project" name="Gradle: stax:stax-api:1.0.1" />
+          <element id="library" level="project" name="Gradle: javax.xml.bind:jaxb-api:2.2.2" />
+          <element id="library" level="project" name="Gradle: asm:asm:3.1" />
+          <element id="library" level="project" name="Gradle: javax.xml.stream:stax-api:1.0-2" />
+          <element id="library" level="project" name="Gradle: javax.activation:activation:1.1" />
+          <element id="library" level="project" name="Gradle: org.mongodb:bson:3.4.2" />
+          <element id="library" level="project" name="Gradle: org.mongodb:mongodb-driver-core:3.4.2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
