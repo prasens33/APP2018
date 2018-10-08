@@ -14,14 +14,14 @@ import java.util.ArrayList;
 
 @Path("driver")
 public class DriverService {
-    DriverInterface accessPoint = new DriverInterface();
+    DriverInterface serviceInterface = new DriverInterface();
 
     //GET Drivers - All
     @GET
     @Produces({ MediaType.APPLICATION_JSON})
     public ArrayList<Driver> getDrivers() {
         ArrayList<Driver> driverList = new ArrayList<Driver>();
-        driverList = accessPoint.getAll();
+        driverList = serviceInterface.getAll();
 
         return driverList;
     }
@@ -32,7 +32,7 @@ public class DriverService {
     @Produces({ MediaType.APPLICATION_JSON})
     public Driver getDriver(@PathParam("id") String id) {
 
-        return accessPoint.getOne(id);
+        return serviceInterface.getOne(id);
 
     }
 
@@ -42,7 +42,7 @@ public class DriverService {
     @Produces({ MediaType.APPLICATION_JSON})
     public Object createDriver(JSONObject obj) {
 
-        return accessPoint.create(obj);
+        return serviceInterface.create(obj);
 
     }
 
@@ -53,7 +53,7 @@ public class DriverService {
     @Produces({ MediaType.APPLICATION_JSON})
     public Object updateDriver(@PathParam("id") String id, JSONObject obj) {
 
-        return accessPoint.update(id,obj);
+        return serviceInterface.update(id,obj);
 
     }
 
@@ -64,7 +64,7 @@ public class DriverService {
     @Produces({ MediaType.APPLICATION_JSON})
     public Object deleteDriver(@PathParam("id") String id) {
 
-        return accessPoint.delete(id);
+        return serviceInterface.delete(id);
 
     }
 
